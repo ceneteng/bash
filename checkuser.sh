@@ -10,3 +10,4 @@ then
     echo "User exists"
 else
     echo "user does not exist"
+fi
