@@ -2,11 +2,10 @@
 
 hostvar=hostname
 
-myip='ifconfig eth0 | grep "inet addr"'
+myip=ifconfig eth0 | grep "inet addr"
 
-mymem='free'
+mymem=free
 
-myproc='nproc'
 
 echo $hostvar
 echo $myip
