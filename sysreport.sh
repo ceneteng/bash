@@ -1,12 +1,12 @@
 #!/bin/bash
 
-$hostvar = hostname
+hostvar = hostname
 
-$myip = /sbin/ifconfig eth0 | grep "ip_addr"
+myip = /sbin/ifconfig eth0 | grep "ip_addr"
 
-$mymem = free
+mymem = free
 
-$myproc = nproc
+myproc = nproc
 
 echo $hostvar
 echo $myip
