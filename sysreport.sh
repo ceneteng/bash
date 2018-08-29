@@ -10,7 +10,7 @@ myproc=$( nproc )
 
 myfile=report_$(date -I).log
 
-echo "$hostvar\n" >> myfile
-echo "$myip\n" >> myfile
-echo "$mymem\n" >> myfile
-echo "$myproc\n" >> myfile
+echo $hostvar"\n" >> $myfile
+echo $myip"\n" >> $myfile
+echo $mymem"\n" >> $myfile
+echo $myproc"\n" >> $myfile
