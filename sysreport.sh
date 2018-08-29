@@ -8,7 +8,7 @@ mymem=$( free )
 
 myproc=$( nproc )
 
-myfile = report_$(date -I).log
+myfile=report_$(date -I).log
 
 echo "$hostvar\n" >> myfile
 echo "$myip\n" >> myfile
