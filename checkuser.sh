@@ -5,7 +5,7 @@ read uName
 myTest=$(sudo grep $uName /etc/passwd)
 echo $myTest
 
-if [ $myTest -n ] 
+if [ -n "$myTest" ] 
 then
     echo "User exists"
 else
